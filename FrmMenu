@@ -1,0 +1,389 @@
+package newpackage;
+
+import javax.swing.JOptionPane;
+
+public class FrmMenu extends javax.swing.JFrame {
+
+    public FrmMenu() {
+        initComponents();
+    }
+
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    private void initComponents() {
+
+        jMenu1 = new javax.swing.JMenu();
+        jLabel1 = new javax.swing.JLabel();
+        butSancri = new javax.swing.JButton();
+        butPuenteAr = new javax.swing.JButton();
+        butsuba = new javax.swing.JButton();
+        butFontib = new javax.swing.JButton();
+        butUzaq = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+
+        jMenu1.setText("jMenu1");
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(10000, 1000));
+        setMinimumSize(new java.awt.Dimension(1500, 5000));
+        setPreferredSize(new java.awt.Dimension(1000, 2000));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Windows 7\\Desktop\\MAPALOCALIDADES.jpg")); // NOI18N
+        jLabel1.setText("jLabel1");
+
+        butSancri.setBackground(new java.awt.Color(255, 102, 255));
+        butSancri.setForeground(new java.awt.Color(0, 0, 0));
+        butSancri.setText("SAN CRISTOBAL");
+        butSancri.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                butSancriActionPerformed(evt);
+            }
+        });
+
+        butPuenteAr.setBackground(new java.awt.Color(0, 153, 51));
+        butPuenteAr.setText("PUENTE ARANDA");
+        butPuenteAr.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                butPuenteArActionPerformed(evt);
+            }
+        });
+
+        butsuba.setBackground(new java.awt.Color(255, 51, 51));
+        butsuba.setText("SUBA");
+        butsuba.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                butsubaActionPerformed(evt);
+            }
+        });
+
+        butFontib.setBackground(new java.awt.Color(51, 51, 255));
+        butFontib.setForeground(new java.awt.Color(255, 255, 255));
+        butFontib.setText("FONTIBON");
+        butFontib.setPreferredSize(new java.awt.Dimension(25, 25));
+        butFontib.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                butFontibActionPerformed(evt);
+            }
+        });
+
+        butUzaq.setBackground(new java.awt.Color(255, 255, 0));
+        butUzaq.setForeground(new java.awt.Color(0, 0, 0));
+        butUzaq.setText("USAQUEN");
+        butUzaq.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                butUzaqActionPerformed(evt);
+            }
+        });
+
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
+        jButton1.setForeground(new java.awt.Color(0, 0, 0));
+        jButton1.setText("COSTOS DE TRANSPORTE");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+
+        jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Windows 7\\Desktop\\UBERBIENREAL.jpg")); // NOI18N
+        jButton2.setText("UBER");
+        jButton2.setMargin(new java.awt.Insets(2, 5, 2, 5));
+        jButton2.setMaximumSize(new java.awt.Dimension(100, 100));
+        jButton2.setMinimumSize(new java.awt.Dimension(100, 210));
+        jButton2.setPreferredSize(new java.awt.Dimension(100, 210));
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+
+        jButton3.setIcon(new javax.swing.ImageIcon("C:\\Users\\Windows 7\\Desktop\\TAXI3.jpg")); // NOI18N
+        jButton3.setText("TAXI");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+
+        jButton4.setText("INFO");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(butsuba, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 887, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(26, 26, 26)
+                                .addComponent(butSancri))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(192, 192, 192)
+                                .addComponent(jButton4))))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(246, 246, 246)
+                        .addComponent(butUzaq, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(298, 298, 298)
+                        .addComponent(butFontib, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(306, 306, 306)
+                        .addComponent(butPuenteAr, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(230, 230, 230)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(48, 48, 48)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 284, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(41, 41, 41)
+                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 183, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(801, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(144, 144, 144)
+                        .addComponent(butsuba, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(butUzaq, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(131, 131, 131)
+                                .addComponent(butSancri, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(218, 218, 218)
+                                .addComponent(jButton4))
+                            .addGroup(layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 515, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(butFontib, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(butPuenteAr, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(35, 35, 35)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(68, 68, 68)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 139, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(1897, Short.MAX_VALUE))
+        );
+
+        pack();
+    }// </editor-fold>                        
+public class Localidades {
+
+        String n1, ubicacion;
+        int costo;
+        double dluAlp, dLuLs, dLuLf, dLuLSan, dLpLu, dLpLs, dLpLf, dLpLsan, dLsLp, dLsLu, dLsLf, dLsLsan, dLfLp, dLfLs, dLfLu, dLfLsan, dLsanlu, dLsanlf, dLsanlp, dLsanLs;
+
+        void setVisible(boolean b) {
+            this.setVisible(b);
+        }
+    }
+
+    public class Loca extends Localidades {
+
+        Loca() {
+
+        }
+
+    }
+    private void butsubaActionPerformed(java.awt.event.ActionEvent evt) {                                        
+
+        Loca lp = new Loca();
+        lp.dLsLf = 15.7;
+        lp.dLsLp = 7.1;
+        lp.dLsLsan = 20.3;
+        lp.dLsLu = 13.2;
+        JOptionPane.showMessageDialog(FrmMenu.this, "La distacia de Suba a  Fontibon  es = " + lp.dLsLf + "\n" + "La distacia de Suba a  Puente Aranda es = " + lp.dLsLp + "\n" + "La distacia de Suba a San Cristobal es = " + lp.dLsLsan + "\n" + "La distacia de Suba a  Usaquen es = " + lp.dLsLu);
+        lp.setVisible(true);
+        // TODO add your handling code here:
+    }                                       
+
+    private void butFontibActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        Loca lf = new Loca();
+        lf.dLfLs = 11.5;
+        lf.dLfLsan = 4.8;
+        lf.dLfLu = 10.4;
+        lf.dLfLp = 6.9;
+        JOptionPane.showMessageDialog(FrmMenu.this, "La distacia de Fontibon a Suba es = " + lf.dLfLs + "\n" + "La distacia de Fontibon  a  San Cristobal es = " + lf.dLfLsan + "\n" + "La distacia de Fontibon a  Usaquen es = " + lf.dLfLu + "\n" + "La distacia de Fontibon a  Puente Aranda es = " + lf.dLfLp);
+        lf.setVisible(true);
+        // TODO add your handling code here:
+    }                                         
+
+    private void butPuenteArActionPerformed(java.awt.event.ActionEvent evt) {                                            
+        Loca lp = new Loca();
+        lp.dLpLu = 11.7;
+        lp.dLpLs = 13.0;
+        lp.dLpLf = 12.7;
+        lp.dLpLsan = 8.9;
+
+        JOptionPane.showMessageDialog(FrmMenu.this, "La distacia de Puente Aranda a  Usaquen es = " + lp.dLpLu + "\n" + "La distancia de Puente Aranda a  Suba es = " + lp.dLpLs + "\n" + "La distacia de Puente Aranda a  Fontibon = " + lp.dLpLf + "\n" + "La distacia de Puente Aranda a  San Cristobal es = " + lp.dLpLsan);
+        lp.setVisible(true);
+        // TODO add your handling code here:
+    }                                           
+
+    private void butSancriActionPerformed(java.awt.event.ActionEvent evt) {                                          
+        Loca lsa = new Loca();
+        lsa.dLsanlf = 17.4;
+        lsa.dLsanlp = 11.6;
+        lsa.dLsanlu = 13.1;
+        lsa.dLsanLs = 7.3;
+        JOptionPane.showMessageDialog(FrmMenu.this, "La distacia de San Cristobal a  Fontibon es:" + lsa.dLsanlf + "\n" + "La distancia de San Cristobal a  Suba:" + lsa.dLsanLs + "\n" + "La distacia de San Cristobal a  Usaquen es = " + lsa.dLsanlu + "\n" + "La distacia de San Cristobal  a  Puente Aranda es = " + lsa.dLsanlp);
+        lsa.setVisible(true);
+        // TODO add your handling code here:
+    }                                         
+
+    private void butUzaqActionPerformed(java.awt.event.ActionEvent evt) {                                        
+
+        Loca ve = new Loca();
+        ve.dluAlp = 10.4;
+        ve.dLuLs = 30.8;
+        ve.dLuLf = 20.9;
+        ve.dLuLSan = 15.1;
+
+        JOptionPane.showMessageDialog(FrmMenu.this, "La distacia de Usaquen a  Puente Aranda es = " + ve.dluAlp + "\n" + "La distacia de Usaquen a  Suba es = " + ve.dLuLs + "\n" + "La distacia de Usaquen a  Fontibon = " + ve.dLuLf + "\n" + "La distacia de Usaquen a  San Cristobal es = " + ve.dLuLSan);
+
+        ve.setVisible(true);
+    }                                       
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+
+        // TODO add your handling code here:
+    }                                        
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        Loca costoUber = new Loca();
+
+        Loca ve = new Loca();
+        double tarifaUberKilometro = 950.50;
+        double tarifaTaxiKilometro = 881.12;
+        double costoUSan, costoUS, costoUP, costoUF, costoSanU, costoSanS, costoSanF, costoSanP, costoFSan, costoFS, costoFU, costoFP, costoPU, costoPS, costoPSan, costoPF, costoSU, costoSP, costoSSan, costoSF;
+        costoUSan = (int) (15.1 * tarifaUberKilometro);
+        costoUS = (int) (30.8 * tarifaUberKilometro);
+        costoUP = (int) (10.4 * tarifaUberKilometro);
+        costoUF = (int) (20.9 * tarifaUberKilometro);
+        costoSanU = (int) (13.4 * tarifaUberKilometro);
+        costoSanS = (int) (7.3 * tarifaUberKilometro);
+        costoSanF = (int) (17.4 * tarifaUberKilometro);
+        costoSanP = (int) (11.6 * tarifaUberKilometro);
+        costoFSan = (int) (4.8 * tarifaUberKilometro);
+        costoFS = (int) (11.5 * tarifaUberKilometro);
+        costoFU = (int) (10.4 * tarifaUberKilometro);
+        costoFP = (int) (6.9 * tarifaUberKilometro);
+        costoPS = (int) (13.0 * tarifaUberKilometro);
+        costoPF = (int) (12.7 * tarifaUberKilometro);
+        costoPSan = (int) (8.9 * tarifaUberKilometro);
+        costoPU = (int) (11.7 * tarifaUberKilometro);
+        costoSSan = (int) (20.3 * tarifaUberKilometro);
+        costoSU = (int) (13.2 * tarifaUberKilometro);
+        costoSF = (int) (15.7 * tarifaUberKilometro);
+        costoSP = (int) (7.1 * tarifaUberKilometro);
+
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               UBER                \n\n\n                               USAQUEN\n" + "El costo de Usaquen a San Cristobal es = " + costoUSan + "\n El costo de Usaquen a Suba es = " + costoUS + "\n El costo de Usaquen a Fontibon es = " + costoUF + "\n El costo de Usaquen a Puente Aranda es = " + costoUP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               UBER                \n\n\n                          SAN CRISTOBAL\n" + "El costo de San Cristobal a San Usaquen es = " + costoSanU + "\n El costo de San Cristobal a Suba es = " + costoSanS + "\n El costo de San Cristobal a Fontibon es = " + costoSanF + "\n El costo de San Cristobal a Puente Aranda es = " + costoSanP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               UBER                \n\n\n                               FONTIBON\n" + "El costo de Fontibon a San Cristobal es = " + costoFSan + "\n El costo de Fontibon a Suba es = " + costoFS + "\n El costo de Fontibon a Usaquen es = " + costoFU + "\n El costo de Fontibon a Puente Aranda es = " + costoFP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               UBER                \n\n\n                               SUBA\n" + "El costo de Suba a San Cristobal es = " + costoSSan + "\n El costo de Suba a Fontibon es = " + costoSF + "\n El costo de Suba a Usaquen  es = " + costoSU + "\n El costo de Suba a Puente Aranda es = " + costoSP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               UBER                \n\n\n                       PUENTE ARANDA\n" + "El costo de Puente Aranda a San Cristobal es = " + costoPSan + "\n El costo de Puente Aranda a Suba es = " + costoPS + "\n El costo de Puente Aranda a Fontibon es = " + costoPF + "\n El costo de Puente Aranda a Usaquen es = " + costoPU);
+    }                                        
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        double tarifaTaxiKilometro = 881.12;
+        double costoUSan, costoUS, costoUP, costoUF, costoSanU, costoSanS, costoSanF, costoSanP, costoFSan, costoFS, costoFU, costoFP, costoPU, costoPS, costoPSan, costoPF, costoSU, costoSP, costoSSan, costoSF;
+        costoUSan = (int) (15.1 * tarifaTaxiKilometro);
+        costoUS = (int) (30.8 * tarifaTaxiKilometro);
+        costoUP = (int) (10.4 * tarifaTaxiKilometro);
+        costoUF = (int) (20.9 * tarifaTaxiKilometro);
+        costoSanU = (int) (13.4 * tarifaTaxiKilometro);
+        costoSanS = (int) (7.3 * tarifaTaxiKilometro);
+        costoSanF = (int) (17.4 * tarifaTaxiKilometro);
+        costoSanP = (int) (11.6 * tarifaTaxiKilometro);
+        costoFSan = (int) (4.8 * tarifaTaxiKilometro);
+        costoFS = (int) (11.5 * tarifaTaxiKilometro);
+        costoFU = (int) (10.4 * tarifaTaxiKilometro);
+        costoFP = (int) (6.9 * tarifaTaxiKilometro);
+        costoPS = (int) (13.0 * tarifaTaxiKilometro);
+        costoPF = (int) (12.7 * tarifaTaxiKilometro);
+        costoPSan = (int) (8.9 * tarifaTaxiKilometro);
+        costoPU = (int) (11.7 * tarifaTaxiKilometro);
+        costoSSan = (int) (20.3 * tarifaTaxiKilometro);
+        costoSU = (int) (13.2 * tarifaTaxiKilometro);
+        costoSF = (int) (15.7 * tarifaTaxiKilometro);
+        costoSP = (int) (7.1 * tarifaTaxiKilometro);
+
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               TAXI                \n\n\n                               USAQUEN\n" + "El costo de Usaquen a San Cristobal es = " + costoUSan + "\n El costo de Usaquen a Suba es = " + costoUS + "\n El costo de Usaquen a Fontibon es = " + costoUF + "\n El costo de Usaquen a Puente Aranda es = " + costoUP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                                 TAXI               \n\n\n                          SAN CRISTOBAL\n" + "El costo de San Cristobal a San Usaquen es = " + costoSanU + "\n El costo de San Cristobal a Suba es = " + costoSanS + "\n El costo de San Cristobal a Fontibon es = " + costoSanF + "\n El costo de San Cristobal a Puente Aranda es = " + costoSanP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               TAXI                \n\n\n                               FONTIBON\n" + "El costo de Fontibon a San Cristobal es = " + costoFSan + "\n El costo de Fontibon a Suba es = " + costoFS + "\n El costo de Fontibon a Usaquen es = " + costoFU + "\n El costo de Fontibon a Puente Aranda es = " + costoFP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               TAXI                \n\n\n                               SUBA\n" + "El costo de Suba a San Cristobal es = " + costoSSan + "\n El costo de Suba a Fontibon es = " + costoSF + "\n El costo de Suba a Usaquen  es = " + costoSU + "\n El costo de Suba a Puente Aranda es = " + costoSP);
+        JOptionPane.showMessageDialog(FrmMenu.this, "                               TAXI                \n\n\n                       PUENTE ARANDA\n" + "El costo de Puente Aranda a San Cristobal es = " + costoPSan + "\n El costo de Puente Aranda a Suba es = " + costoPS + "\n El costo de Puente Aranda a Fontibon es = " + costoPF + "\n El costo de Puente Aranda a Usaquen es = " + costoPU);
+
+    }                                        
+
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+        JOptionPane.showMessageDialog(FrmMenu.this,"El recorrido mas corto entre las localidades es la que va desde Puente Aranda a Usaquen.");
+    }                                        
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String args[]) {
+        /* Set the Nimbus look and feel */
+        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
+        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         */
+        try {
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
+                if ("Nimbus".equals(info.getName())) {
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+            }
+        } catch (ClassNotFoundException ex) {
+            java.util.logging.Logger.getLogger(FrmMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (InstantiationException ex) {
+            java.util.logging.Logger.getLogger(FrmMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (IllegalAccessException ex) {
+            java.util.logging.Logger.getLogger(FrmMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        } catch (javax.swing.UnsupportedLookAndFeelException ex) {
+            java.util.logging.Logger.getLogger(FrmMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+        }
+        //</editor-fold>
+
+        /* Create and display the form */
+        java.awt.EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                new FrmMenu().setVisible(true);
+            }
+        });
+    }
+
+    // Variables declaration - do not modify                     
+    private javax.swing.JButton butFontib;
+    private javax.swing.JButton butPuenteAr;
+    private javax.swing.JButton butSancri;
+    private javax.swing.JButton butUzaq;
+    private javax.swing.JButton butsuba;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenu jMenu1;
+    // End of variables declaration                   
+}
