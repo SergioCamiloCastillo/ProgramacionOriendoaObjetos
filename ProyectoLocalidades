@@ -1,0 +1,43 @@
+package newpackage;
+
+public class ProectoLocalidades {
+
+    boolean validate(String suba, String uzaquen) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    boolean validate(String PuenteAranda) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    private static class StaticHolder {
+
+        private static ProectoLocalidades INSTANCE = new ProectoLocalidades();
+
+    }
+
+    public static ProectoLocalidades getInstance() {
+        return StaticHolder.INSTANCE;
+    }
+
+    public boolean validate(String suba, String usaquen, String Puentearanda, String fontibon, String sanCristobal) {
+
+        boolean correct = true;
+
+        try {
+
+            double value = Double.parseDouble(suba);
+            value = Double.parseDouble(usaquen);
+            value = Double.parseDouble(Puentearanda);
+            value = Double.parseDouble(fontibon);
+            value = Double.parseDouble(sanCristobal);
+
+        } catch (NumberFormatException nfe) {
+            correct = false;
+        }
+
+        return correct;
+
+    }
+
+}
